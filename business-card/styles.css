@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #14262d;
+    color: #e0e5c9;
+    border-bottom: 8px solid #96c6b2;     
+}
+
+.name {
+    font-size: 18px;
+    animation-name: font-grow;
+    animation-duration: 2s;
+}
+
+@keyframes font-grow{
+    from {font-size: 18px;}
+    to {font-size: 20px;}
+}
+
